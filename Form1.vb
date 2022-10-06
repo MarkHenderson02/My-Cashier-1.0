@@ -56,4 +56,11 @@
         End If
 
     End Sub
+
+    Private Sub cmbMenu_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbMenu.SelectedIndexChanged
+        Dim harga As Double
+        harga = Mid(cmbMenu.Text, InStr(cmbMenu.Text, "Rp") + 2)
+        tbHarga.Text = harga
+        tbJumlah.Focus()
+    End Sub
 End Class

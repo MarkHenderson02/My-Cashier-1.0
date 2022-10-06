@@ -57,12 +57,11 @@ Partial Class Form1
         'cmbMenu
         '
         Me.cmbMenu.FormattingEnabled = True
-        Me.cmbMenu.Items.AddRange(New Object() {"Nasi Goreng Vegetarian", "Nasi Goreng Kecap", "Nasi Salmon Mentai", "Nasi Uduk", "Nasi Putih", "Sapi Lada Hitam", "Coto Makassar", "Soto Betawi", "Sop Lidah", "Konro Bakar"})
+        Me.cmbMenu.Items.AddRange(New Object() {"Nasi Goreng Vegetarian - Rp 70000", "Nasi Goreng Kecap - Rp 30000", "Nasi Salmon Mentai - Rp100000", "Nasi Uduk - Rp 10000", "Nasi Putih - Rp 7000", "Sapi Lada Hitam - Rp 35000", "Coto Makassar - Rp 45000", "Soto Betawi - Rp 40000", "Sop Lidah - Rp 40000", "Konro Bakar - Rp 60000"})
         Me.cmbMenu.Location = New System.Drawing.Point(127, 124)
         Me.cmbMenu.Name = "cmbMenu"
         Me.cmbMenu.Size = New System.Drawing.Size(138, 21)
         Me.cmbMenu.TabIndex = 1
-        Me.cmbMenu.Text = "Nasi Goreng Vegetarian"
         '
         'tbHarga
         '
